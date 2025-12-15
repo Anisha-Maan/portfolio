@@ -1,0 +1,16 @@
+# Exclude non-site docs from repo
+COLD_EMAIL_TEMPLATES.md
+PROJECT_SHOWCASE_ROBOTICS.md
+PORTFOLIO_UPDATE_SUMMARY.md
+
+# Exclude unused images
+images/background.png
+images/logo.png
+images/user.png
+
+# Node & Python nuisances (safety if added later)
+node_modules/
+.dist/
+.vercel/
+__pycache__/
+.env
